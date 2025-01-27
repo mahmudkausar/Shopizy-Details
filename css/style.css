@@ -1,0 +1,710 @@
+/* ============= commmon css start ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.body{
+    font-family:"Poppins", serif;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navber part start ============== */ 
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 34px;
+}
+.navbar-brand{
+    padding-top: 52px;
+    padding-bottom: 45px;
+    margin-right: 114px;
+}
+.nav-item{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.me-auto {
+    margin-right: 5px !important;
+}
+.nav-item .nav-link{
+    margin-right: 30px;
+    color: #121212;
+}
+
+.form-control {
+    width: 500px;
+    padding: 20px 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(69, 110, 214, 0.05);
+}
+
+.navbar-collapse i {
+    color: #121212;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    font-size: 20px;
+}
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.navbar .icon i{
+    position: relative;
+    top: 6px;
+    left: 0;
+    color: #456ED6;
+}
+
+/* ============= navber part end ============== */ 
+
+/* ============= pricing part start ============== */ 
+#pricing{
+    padding-bottom: 100px;
+}
+#pricing .main .image .img1{    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+#pricing .main .image img{
+    object-fit: cover;
+    margin-right: 10px;
+}
+#pricing .main .image img{
+    object-fit: cover;
+}
+#pricing .right .rate2{
+    margin-bottom: 24px;
+}
+#pricing .right .shoes{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+#pricing .right h4{
+    color: #121212;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#pricing .right i{
+    color: #FFC540;
+}
+#pricing .right .rate{
+    color: #121212;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#pricing .right .review{
+    color: #121212;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    opacity: 0.5;
+}
+#pricing .right .cross{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration:line-through;
+    opacity: 0.4;
+}
+#pricing .right .rp{
+    color: #121212;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#pricing .right .colors{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 26px;
+}
+#pricing .right .colors .color{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+}
+#pricing .right .colors img{
+   max-width: 100px;
+}
+#pricing .right .size{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 26px;
+    align-items: center;
+}
+#pricing .right .size .aaa .color{
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+}
+#pricing .right .size .bbb .gap{
+    padding: 11px 15px;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.8;
+    margin-left: 11px;
+    transition: all linear .3s;
+}
+#pricing .right .size .bbb .gap:hover{
+    border-radius: 20px;
+    border: 1px solid #456ED6;
+    color: #456ED6;
+    background: rgba(69, 110, 214, 0.10);
+}
+
+#pricing .right .down{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+#pricing .right .down button{
+    border-radius: 20px;
+    background: #456ED6;
+    padding: 22px 45px;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#pricing .right .down .btnn i{
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 10px;
+ 
+}
+#pricing .right .down .share a{
+    padding: 23px 23px;
+    border-radius: 20px;
+    border:1px solid  #456ED6;
+    color: #456ED6;
+    text-align: center;
+    margin-left: 11px;
+    transition: all linear .3s;
+}
+#pricing .right .down .share a i{
+    font-size: 30px;
+    color: #456ED6;
+}
+
+
+/* ============= pricing part end ============== */ 
+
+/* ============= artical part start ============== */ 
+#artical .main2 .mmain .dis{
+    display: flex;
+    column-gap: 28px;
+    border-bottom: 1px solid #9F9F9F;
+    width: 100%;
+    padding-bottom: 24px;
+}
+#artical .main2 .mmain .a{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.8;
+    position: relative;
+}
+#artical .main2 .mmain .a::after {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    content: "";
+    background: #456ED6;
+    width: 125px;
+    height: 5px;
+}
+#artical .main2 .mmain .b{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
+#artical .main2 .mmain .text{
+    margin-top: 30px;
+}
+
+#artical .main2 .mmain .text .text1{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+#artical .main2 .mmain .text .text2 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+#artical .main2 .mmain .text span{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+
+
+/* ============= artical part end ============== */ 
+
+/* ============= card part start ============== */ 
+#card{
+    padding: 100px 0;
+}
+#card .heading h4{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+
+#card .card{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+#card .card-body .card-text{
+    max-width:230px ;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#card .card-body .rp{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#card .card-body .popular{
+    display: flex;
+    justify-content: space-between;
+}
+#card .card-body .popular .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#card .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#card .card-body .right{
+    text-align: right;
+}
+#card .card-body .left i{
+    color: #FFC540;
+}
+#card .card-body .popular1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+#card .card-body .popular1 .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#card .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#card .card-body .right{
+    text-align: right;
+}
+#card .card-body .left i{
+    color: #FFC540;
+}
+#card .card-body .popular2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#card .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#card .card-body .right{
+    text-align: right;
+}
+#card .card-body .left i{
+    color: #FFC540;
+}
+
+
+
+
+/* ============= card part end ============== */ 
+
+
+/* ============= preview part start ============== */ 
+
+#preview .heading h4{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+#preview .mainn {
+    margin-left: 40px;
+}
+#preview .mainn img{
+    margin-bottom: 57px;
+
+}
+#preview .mainn i{
+    color: #FFC540;
+    font-size: 25px;
+    margin-left: 3px;
+}
+#preview .mainn .rbtn button{
+    padding: 9px 20px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+    background: #FFF;
+    margin-top: 26px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+#preview .mainn .rbtn button:hover{
+    border: 1px solid #456ED6;
+    color: #456ED6;
+}
+#preview .mainn .pbtn button{
+    padding: 9px 20px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+    background: #FFF;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+#preview .mainn .pbtn button:hover{
+    border: 1px solid #456ED6;
+    color: #456ED6;
+}
+
+#preview .bar{
+    width: 100%;
+    height: 1px;
+    background: #9F9F9F;
+}
+
+#preview .review{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+#preview .review .left{
+    display: flex;
+    align-items: center;
+}
+
+#preview .review .left .id{
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+}
+#preview .review .left .id .name{
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#preview .review .left .id .icon i{
+    color: #FFC540;
+    font-size: 15px;
+}
+#preview .review .left .id .icon .gray{
+    color: #9F9F9F;
+    font-size: 15px;
+}
+#preview .review .middle .sedo{
+    padding: 13px 26px 53px 22px;
+    max-width: 670px;
+    border-radius: 9px;
+    background: rgba(207, 207, 207, 0.1);
+}
+#preview .review .middle .sedo .write{
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+#preview .ses {
+    margin: 0 auto;
+    text-align: center;
+   
+}
+#preview .ses i {
+    border: 1px solid #9F9F9F;
+    font-size: 22px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    color: rgba(18, 18, 18, 1);
+    margin-right: 88px;
+}
+
+#preview .ses .last{
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 88px;
+    opacity: 0.3;
+}
+#preview .ses .lastone{
+    color: #121212;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 88px;
+}
+
+
+/* ============= preview part end ============== */ 
+
+/* ============= products part start ============== */ 
+#products{
+    padding: 100px 0;
+}
+#products .heading h4{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+
+#products .card{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+#products .card-body .card-text{
+    max-width:230px ;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#products .card-body .rp{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#products .card-body .popular{
+    display: flex;
+    justify-content: space-between;
+}
+#products .card-body .popular .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right{
+    text-align: right;
+}
+#products .card-body .left i{
+    color: #FFC540;
+}
+#products .card-body .popular1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#products .card-body .popular1 .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right{
+    text-align: right;
+}
+#products .card-body .left i{
+    color: #FFC540;
+}
+#products .card-body .popular2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#products .card-body .popular2 .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#products .card-body .right{
+    text-align: right;
+}
+#products .card-body .left i{
+    color: #FFC540;
+}
+
+
+
+
+/* ============= products part end ============== */ 

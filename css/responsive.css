@@ -1,0 +1,336 @@
+@media (max-width: 575px){
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar-toggler {
+        border: 0
+    }
+
+    #pricing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+
+
+    #pricing .main .image .img1{
+        height: 50%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    #pricing .main .image .img2 {
+        display: flex;
+        justify-content: center;
+    }
+    #pricing .main .right{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #pricing .right .shoes {
+        font-size: 13px;
+    }
+
+    #pricing .right h4 {
+        font-size: 20px;
+    }
+
+    #pricing .right .rate2 {
+        margin-bottom: 5px;
+    }
+    #pricing .right i {
+        font-size: 13px;
+    }
+    #pricing .right .rate {
+        font-size: 15px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #pricing .right .review {
+        font-size: 14px;
+    }
+    #pricing .right .cross {
+        font-size: 18px;
+    }
+
+    #pricing .right .rp {
+        font-size: 24px;
+    }
+
+    #pricing .right .colors .color {
+        font-size: 15px;
+    }
+
+    #pricing .right .colors img {
+        max-width: 70px;
+    }
+    #pricing .right .size .bbb .gap {
+        padding: 10px 13px;
+        border-radius: 14px;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    #pricing .right .size .bbb .gap:hover {
+        border-radius: 14px;
+    }
+    #pricing .right .size {
+        margin-top: 20px;
+        column-gap: 20px;
+    }
+
+    #pricing .right .down button {
+        border-radius: 15px;
+        padding: 10px 9px;
+        font-size: 15px;
+    }
+
+    #pricing .right .down .btnn i {
+        font-size: 12px;
+        margin-left: 4px;
+    }
+    #pricing .right .down .share a i {
+        font-size: 15px;
+    }
+
+    #pricing .right .down .share a {
+        padding: 10px 15px;
+        border-radius: 15px;
+        margin-left: 16px;
+    }
+
+    #artical .main2 .mmain .a {
+        font-size: 18px;
+    }
+
+    #artical .main2 .mmain .b {
+        font-size: 18px;
+    }
+    #artical .main2 .mmain .a::after {
+        bottom: -10px;
+        width: 95px;
+    }
+    #artical .main2 .mmain .dis {
+        column-gap: 80px;
+        padding-bottom: 10px;
+    }
+    #artical .main2 .mmain .text {
+        margin-top: 10px;
+    }
+
+
+    #artical .main2 .mmain .text .text1 {
+        font-size: 13px;
+    }
+    #artical .main2 .mmain .text .text2 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    #artical .main2 .mmain .text span {
+        font-size: 13px;
+    }
+
+    #card {
+        padding: 10px 0 15px 0;
+    }
+
+    #card .heading h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #card .rcard{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    #card .card-body .card-text {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    #card .card-body .rp {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    #card .card-body .left i {
+        font-size: 12px;
+    }
+    #card .card-body .popular1 .left span {
+        font-size: 12px;
+    }
+
+    #card .card-body .right span {
+        font-size: 12px;
+    }
+
+    #card .card-body .popular2 .left span {
+        font-size: 12px;
+    }
+    #preview .heading h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #preview .mainn img {
+        margin-bottom: 5px;
+        width: 115px;
+    }
+    #preview .mainn {
+        margin-left: 0px;
+        text-align: center;
+    }
+    #preview .mainn i {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    #preview .mainn .rbtn button {
+        padding: 5px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+        margin-top: 11px;
+        margin-right: 3px;
+    }
+
+    #preview .mainn .pbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #preview .mainn .pbtn button {
+        padding: 6px 6px;
+        border-radius: 10px;
+        font-size: 12px;
+        margin-right: 6px;
+        margin-top: 0px;
+    }
+    #preview .bar {
+        display: none;
+    }
+
+    #preview .review {
+        margin-top: 25px;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+
+    #preview .review .left img{
+        width: 45px;
+    }
+
+    #preview .review .left .id {
+        margin-left: 15px;
+    }
+    #preview .review .left .id .name {
+        font-size: 15px;
+    }
+
+    #preview .review .left .id .icon {
+        margin-top: -5px;
+    }
+    #preview .review .left .id .icon i {
+        font-size: 10px;
+    }
+    #preview .review .left .id .icon .gray {
+        font-size: 10px;
+    }
+
+    #preview .review .middle .sedo {
+        padding: 9px 5px 30px 15px;
+        margin-top: 10px;
+    }
+
+    #preview .review .middle .sedo .write {
+        font-size: 14px;
+    }
+
+    #preview .review .end{
+        display: none;
+    }
+    #preview .ses {
+        margin-top: 15px;
+    }
+    #preview .ses i {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 20px;
+    }
+    #preview .ses .lastone {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    #preview .ses .last {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+
+    #products {
+        padding: 20px 0;
+    }
+    #products .heading h4 {
+        font-size: 20px;
+        margin-bottom: 19px;
+        text-align: center;
+    }
+
+    #products .card-body .card-text {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    #products .card-body .rp {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    #products .card-body .left i {
+        font-size: 10px;
+    }
+    #products .card-body .popular1 .left span {
+        font-size: 10px;
+    }
+    #products .card-body .popular1 .left span {
+        font-size: 10px;
+    }
+    #products .card-body .popular2 .left span {
+        font-size: 10px;
+    }
+    #products .pcard {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ========================================== */
+}
